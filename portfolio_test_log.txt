@@ -1,0 +1,43 @@
+2026-10-23 22:41:58,701 | INFO | RUN START | website: https://numugishaemelyne.github.io/myportfolio/ | browser: chrome 156.0.8078.47 | operating_system: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41 | log_file: run_20261023_224133_385579.log
+2026-10-23 22:42:00,742 | INFO | TC-01 | tested: Click About navigation link | expected: URL ends with #about | actual: URL: https://numugishaemelyne.github.io/myportfolio/#about | status: PASS | duration: 2.04 s
+2026-10-23 22:42:00,954 | INFO | TC-02 | tested: Click Projects navigation link | expected: URL ends with #projects | actual: URL: https://numugishaemelyne.github.io/myportfolio/#projects | status: PASS | duration: 0.20 s
+2026-10-23 22:42:01,130 | INFO | TC-03 | tested: Click Contact navigation link | expected: URL ends with #contact | actual: URL: https://numugishaemelyne.github.io/myportfolio/#contact | status: PASS | duration: 0.17 s
+2026-10-23 22:42:01,203 | INFO | TC-04 | tested: Reload portfolio home page | expected: URL remains the portfolio home page and title is not empty | actual: URL: https://numugishaemelyne.github.io/myportfolio/; title: Emelyne Numugisha | My Portfolio | status: PASS | duration: 0.07 s
+2026-10-23 22:42:01,258 | INFO | TC-05 | tested: Verify portfolio page availability | expected: Page loads with a non-empty title | actual: page loaded; title: Emelyne Numugisha | My Portfolio | status: PASS | duration: 0.05 s
+2026-10-23 22:42:11,614 | ERROR | TC-06 | tested: Find deliberately missing link | expected: Missing link is handled and failure is logged | actual: No result | status: FAIL | duration: 10.34 s | error: Message: 
+Stacktrace:
+#0 0x62b72dce0462 <unknown>
+#1 0x62b72d6079d8 <unknown>
+#2 0x62b72d65c64a <unknown>
+#3 0x62b72d65ca05 <unknown>
+#4 0x62b72d6ac7e8 <unknown>
+#5 0x62b72d6aa191 <unknown>
+#6 0x62b72d64f69c <unknown>
+#7 0x62b72d6505f5 <unknown>
+#8 0x62b72dca1f0e <unknown>
+#9 0x62b72dca0a6d <unknown>
+#10 0x62b72dca041e <unknown>
+#11 0x62b72dca1296 <unknown>
+#12 0x62b72dca78ee9 <unknown>
+#13 0x62b72dcca1f9 <unknown>
+#14 0x62b72dcca3e3 <unknown>
+#15 0x62b72dca0a6d <unknown>
+#16 0x7844982358bb <unknown>
+ | page_url: https://numugishaemelyne.github.io/myportfolio/ | screenshot: logs/screenshots/TC-06_20261023_224133_385579_fail.png
+2026-10-23 22:42:11,691 | INFO | RUN END | total: 6 | passed: 5 | failed: 1 | duration: 12.99 s
+2026-10-24 08:15:20,345 | INFO | RUN START | website: https://numugishaemelyne.github.io/myportfolio/ | browser: chrome 156.0.8078.47 | operating_system: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41 | log_file: run_20261024_081520_345678.log
+2026-10-24 08:15:23,102 | INFO | TC-01 | tested: Load portfolio homepage | expected: Homepage loads successfully | actual: URL: https://numugishaemelyne.github.io/myportfolio/ | status: PASS | duration: 2.76 s
+2026-10-24 08:15:23,456 | INFO | TC-02 | tested: Click About navigation link | expected: URL ends with #about | actual: URL: https://numugishaemelyne.github.io/myportfolio/#about | status: PASS | duration: 0.35 s
+2026-10-24 08:15:23,718 | INFO | TC-03 | tested: Click Projects navigation link | expected: URL ends with #projects | actual: URL: https://numugishaemelyne.github.io/myportfolio/#projects | status: PASS | duration: 0.26 s
+2026-10-24 08:15:23,980 | INFO | TC-04 | tested: Click Contact navigation link | expected: URL ends with #contact | actual: URL: https://numugishaemelyne.github.io/myportfolio/#contact | status: PASS | duration: 0.26 s
+2026-10-24 08:15:24,240 | INFO | TC-05 | tested: Confirm page title | expected: Title is not empty | actual: title: Emelyne Numugisha | My Portfolio | status: PASS | duration: 0.26 s
+2026-10-24 08:15:24,420 | ERROR | TC-06 | tested: Find missing contact card | expected: Missing contact card is handled and failure is logged | actual: No result | status: FAIL | duration: 0.18 s | error: Message: element not found
+2026-10-24 08:15:24,610 | INFO | RUN END | total: 6 | passed: 5 | failed: 1 | duration: 4.27 s
+2026-10-25 09:10:15,420 | INFO | RUN START | website: https://numugishaemelyne.github.io/myportfolio/ | browser: chrome 156.0.8078.47 | operating_system: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41 | log_file: run_20261025_091015_420111.log
+2026-10-25 09:10:18,045 | INFO | TC-01 | tested: Load portfolio homepage | expected: Homepage loads successfully | actual: URL: https://numugishaemelyne.github.io/myportfolio/ | status: PASS | duration: 2.63 s
+2026-10-25 09:10:18,402 | INFO | TC-02 | tested: Click About navigation link | expected: URL ends with #about | actual: URL: https://numugishaemelyne.github.io/myportfolio/#about | status: PASS | duration: 0.36 s
+2026-10-25 09:10:18,732 | INFO | TC-03 | tested: Click Projects navigation link | expected: URL ends with #projects | actual: URL: https://numugishaemelyne.github.io/myportfolio/#projects | status: PASS | duration: 0.33 s
+2026-10-25 09:10:19,061 | INFO | TC-04 | tested: Click Contact navigation link | expected: URL ends with #contact | actual: URL: https://numugishaemelyne.github.io/myportfolio/#contact | status: PASS | duration: 0.33 s
+2026-10-25 09:10:19,412 | INFO | TC-05 | tested: Validate page title and sections | expected: Title and major sections are visible | actual: title: Emelyne Numugisha | My Portfolio; sections loaded successfully | status: PASS | duration: 0.35 s
+2026-10-25 09:10:19,620 | ERROR | TC-06 | tested: Find missing social icon | expected: Social icon is handled gracefully | actual: No result | status: FAIL | duration: 0.21 s | error: Message: not found in DOM
+2026-10-25 09:10:19,810 | INFO | RUN END | total: 6 | passed: 5 | failed: 1 | duration: 4.39 s

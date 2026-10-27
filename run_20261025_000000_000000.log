@@ -1,0 +1,7 @@
+2026-10-25 00:00:00,000 | INFO | RUN START | website: https://numugishaemelyne.github.io/myportfolio/ | browser: chrome 156.0.8078.47 | operating_system: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41 | log_file: run_20261025_000000_000000.log
+2026-10-25 00:00:01,000 | INFO | TC-01 | tested: Load portfolio home page | expected: Page loads successfully | actual: URL: https://numugishaemelyne.github.io/myportfolio/ | status: PASS | duration: 0.50 s
+2026-10-25 00:00:02,000 | INFO | TC-02 | tested: Verify page title | expected: Title is not empty | actual: title: Emelyne Numugisha | My Portfolio | status: PASS | duration: 0.20 s
+2026-10-25 00:00:03,000 | INFO | TC-03 | tested: Check About section visibility | expected: About section is visible on the page | actual: section loaded successfully | status: PASS | duration: 0.30 s
+2026-10-25 00:00:04,000 | INFO | TC-04 | tested: Check Projects section visibility | expected: Projects section is visible on the page | actual: section loaded successfully | status: PASS | duration: 0.25 s
+2026-10-25 00:00:05,000 | INFO | TC-05 | tested: Check Contact section visibility | expected: Contact section is visible on the page | actual: section loaded successfully | status: PASS | duration: 0.28 s
+2026-10-25 00:00:06,000 | INFO | RUN END | total: 5 | passed: 5 | failed: 0 | duration: 6.53 s

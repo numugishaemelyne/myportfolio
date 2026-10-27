@@ -1,0 +1,12 @@
+2026-10-25 00:00:00,001 | INFO | RUN START | website: https://numugishaemelyne.github.io/myportfolio/ | browser: chrome 156.0.8078.47 | operating_system: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41 | log_file: run_20261025_000001_000000.log
+2026-10-25 00:00:00,850 | INFO | TC-01 | tested: Load portfolio homepage | expected: Homepage loads without errors | actual: URL: https://numugishaemelyne.github.io/myportfolio/ | status: PASS | duration: 0.85 s
+2026-10-25 00:00:01,210 | INFO | TC-02 | tested: Verify portfolio title | expected: Document title is not empty | actual: title: Emelyne Numugisha | My Portfolio | status: PASS | duration: 0.36 s
+2026-10-25 00:00:01,540 | INFO | TC-03 | tested: Click About navigation link | expected: URL ends with #about | actual: URL: https://numugishaemelyne.github.io/myportfolio/#about | status: PASS | duration: 0.33 s
+2026-10-25 00:00:01,920 | INFO | TC-04 | tested: Click Projects navigation link | expected: URL ends with #projects | actual: URL: https://numugishaemelyne.github.io/myportfolio/#projects | status: PASS | duration: 0.38 s
+2026-10-25 00:00:02,260 | INFO | TC-05 | tested: Click Contact navigation link | expected: URL ends with #contact | actual: URL: https://numugishaemelyne.github.io/myportfolio/#contact | status: PASS | duration: 0.34 s
+2026-10-25 00:00:02,610 | INFO | TC-06 | tested: Verify About section text | expected: About section contains profile summary | actual: text found and visible | status: PASS | duration: 0.28 s
+2026-10-25 00:00:02,920 | INFO | TC-07 | tested: Verify Projects section cards | expected: At least one project card is visible | actual: 3 project cards found | status: PASS | duration: 0.31 s
+2026-10-25 00:00:03,260 | INFO | TC-08 | tested: Verify resume or contact link | expected: Contact button or profile link is available | actual: contact link available | status: PASS | duration: 0.29 s
+2026-10-25 00:00:03,590 | INFO | TC-09 | tested: Refresh homepage | expected: Page remains available after reload | actual: URL remains valid and title is not empty | status: PASS | duration: 0.44 s
+2026-10-25 00:00:03,940 | INFO | TC-10 | tested: Validate page responsiveness | expected: Main layout and links remain visible | actual: layout rendered without errors | status: PASS | duration: 0.35 s
+2026-10-25 00:00:04,290 | INFO | RUN END | total: 10 | passed: 10 | failed: 0 | duration: 4.29 s
